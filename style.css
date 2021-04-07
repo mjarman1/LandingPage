@@ -1,7 +1,7 @@
-body{background-color: cadetblue;}
+body{background-color: #f4f4f4;}
 header{ font-family: monospace;
     border: 6px solid black;
-    background-color:#f4f4f4;
+    background-color:cadetblue;
     display:flex;
     flex-direction: row;
 font-size: 10px;
@@ -28,6 +28,28 @@ h2{display: flex;
     form{display: flex;
     justify-content: center;
     margin-top: 2em;}
-button{background-color: cadetblue;;}
-iframe{margin-left:350px;
+button{background-color: cadetblue;}
+iframe{display:block;
+    margin-left:auto;
+    margin-right: auto;
 }
+#subs{margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center}
+    .tiers{display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(100% / 3);
+        margin: 10px;
+        border: 1px solid #000;
+        border-radius: 3px;}
+        .tiers > .time{background-color: cadetblue;
+            color: black;
+            padding: 15px 0;
+            width: 100%;
+            text-transform: uppercase;
+            font-weight: 700}
+
+span{font-weight: bold;}
